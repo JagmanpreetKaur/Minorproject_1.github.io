@@ -1,0 +1,73 @@
+body {
+	background-color: #f5f5f5;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 400px;
+	margin: 50px auto;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+h1 {
+	font-family: "Exo 2", sans-serif;
+	text-align: center;
+	background-color: white;
+	color: rgb(176, 58, 97);
+	margin-bottom: 30px;
+	
+}
+h2{
+	font-family: "Edu NSW ACT Foundation", cursive;
+	text-align: center;
+	color:black;
+	margin-bottom: 30px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	background-color: #f5f5f5;
+	border: none;
+	padding: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #6ab1dd;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #33a5f9;
+	
+}
+
+p {
+	text-align: center;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.social-media {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.social-media a {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social-media a img {
+	width: 30px;
+	height: 30px;
+}
